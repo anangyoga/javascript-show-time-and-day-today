@@ -1,0 +1,23 @@
+@import url("https://fonts.googleapis.com/css2?family=Heebo:wght@500&family=Josefin+Sans&family=Oxygen&family=PT+Sans&family=Poppins:wght@400;500;600;700;800;900&display=swap");
+body {
+  background-color: #f4dfba;
+  height: 100%;
+  font-family: "Josefin Sans", sans-serif;
+}
+
+#container {
+  border-radius: 0.5em;
+  height: 200px;
+  width: 550px;
+  background-color: #ca965c;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 14em auto;
+}
+
+#output,
+#date {
+  font-size: 2em;
+}
